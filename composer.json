@@ -1,0 +1,170 @@
+{
+    "name": "drupal-composer/drupal-project",
+    "description": "Project template for Drupal 8 projects with composer",
+    "type": "project",
+    "license": "GPL-2.0+",
+    "authors": [
+        {
+            "name": "",
+            "role": ""
+        }
+    ],
+    "repositories": [
+        {
+            "type": "composer",
+            "url": "https://packages.drupal.org/8"
+        },
+        {
+            "type": "package",
+            "package": {
+                "name": "ckeditor-plugin/uploadimage",
+                "version": "4.8.0",
+                "type": "drupal-library",
+                "extra": {
+                    "installer-name": "uploadimage"
+                },
+                "dist": {
+                    "url": "https://download.ckeditor.com/uploadimage/releases/uploadimage_4.8.0.zip",
+                    "type": "zip"
+                }
+            }
+        },
+        {
+            "type": "package",
+            "package": {
+                "name": "ckeditor-plugin/uploadwidget",
+                "version": "4.8.0",
+                "type": "drupal-library",
+                "extra": {
+                    "installer-name": "uploadwidget"
+                },
+                "dist": {
+                    "url": "https://download.ckeditor.com/uploadwidget/releases/uploadwidget_4.8.0.zip",
+                    "type": "zip"
+                }
+            }
+        },
+        {
+            "type": "package",
+            "package": {
+                "name": "ckeditor-plugin/filetools",
+                "version": "4.8.0",
+                "type": "drupal-library",
+                "extra": {
+                    "installer-name": "filetools"
+                },
+                "dist": {
+                    "url": "https://download.ckeditor.com/filetools/releases/filetools_4.8.0.zip",
+                    "type": "zip"
+                }
+            }
+        },
+        {
+            "type": "package",
+            "package": {
+                "name": "ckeditor-plugin/notification",
+                "version": "4.8.0",
+                "type": "drupal-library",
+                "extra": {
+                    "installer-name": "notification"
+                },
+                "dist": {
+                    "url": "https://download.ckeditor.com/notification/releases/notification_4.8.0.zip",
+                    "type": "zip"
+                }
+            }
+        },
+        {
+            "type": "package",
+            "package": {
+                "name": "ckeditor-plugin/notificationaggregator",
+                "version": "4.8.0",
+                "type": "drupal-library",
+                "extra": {
+                    "installer-name": "notificationaggregator"
+                },
+                "dist": {
+                    "url": "https://download.ckeditor.com/notificationaggregator/releases/notificationaggregator_4.8.0.zip",
+                    "type": "zip"
+                }
+            }
+        },
+        {
+            "type": "package",
+            "package": {
+                "name": "bgrins/spectrum",
+                "version": "1.8.0",
+                "type": "drupal-library",
+                "dist": {
+                    "url": "https://github.com/bgrins/spectrum/archive/1.8.0.zip",
+                    "type": "zip"
+                }
+            }
+        }
+    ],
+    "require": {
+        "composer/installers": "^1.2",
+        "drupal-composer/drupal-scaffold": "^2.4",
+        "cweagans/composer-patches": "^1.6",
+        "drupal/core": "^8.7",
+        "drush/drush": "^9.0",
+        "drupal/console": "~1.0"
+    },
+    "require-dev": {
+        "drupal/coder": "^8.2",
+        "webflo/drupal-core-require-dev": "^8.7",
+        "jakub-onderka/php-parallel-lint": "^0.9.2",
+        "jakub-onderka/php-console-highlighter": "^0.3.2",
+        "drupal/conditional_fields": "^1.0@alpha"
+    },
+    "conflict": {
+        "drupal/drupal": "*"
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "autoload": {
+        "classmap": [
+            "scripts/composer/ScriptHandler.php"
+        ]
+    },
+    "scripts": {
+        "drupal-scaffold": "DrupalComposer\\DrupalScaffold\\Plugin::scaffold",
+        "pre-install-cmd": [
+            "DrupalProject\\composer\\ScriptHandler::checkComposerVersion"
+        ],
+        "pre-update-cmd": [
+            "DrupalProject\\composer\\ScriptHandler::checkComposerVersion"
+        ],
+        "post-install-cmd": [
+            "DrupalProject\\composer\\ScriptHandler::createRequiredFiles"
+        ],
+        "post-update-cmd": [
+            "DrupalProject\\composer\\ScriptHandler::createRequiredFiles"
+        ]
+    },
+    "extra": {
+        "installer-paths": {
+            "webroot/core": ["type:drupal-core"],
+            "webroot/libraries/ckeditor/plugins/{$name}": ["vendor:ckeditor-plugin"],
+            "webroot/libraries/{$name}": ["type:drupal-library"],
+            "webroot/modules/contrib/{$name}": ["type:drupal-module"],
+            "webroot/profiles/contrib/{$name}": ["type:drupal-profile"],
+            "webroot/themes/contrib/{$name}": ["type:drupal-theme"],
+            "webroot/sites/all/drush/contrib/{$name}": ["type:drupal-drush"]
+        },
+        "patchLevel": {
+            "drupal/core": "-p2"
+        },
+        "patches": {
+            "drupal/core": {
+            }
+        }
+    },
+    "config": {
+        "platform": {
+            "php": "7.2",
+            "ext-gd": "1"
+        }
+    }
+}
+
