@@ -1,0 +1,18 @@
+name: drupal
+recipe: drupal8
+config:
+  webroot: webroot
+  php: '7.3'
+  via: nginx
+  drush: 9.6.0-rc3
+  xdebug: true
+services:
+  database:
+    type: mariadb:10.1
+  mailhog:
+    type: mailhog
+    hogfrom:
+      - appserver
+proxy:
+  mailhog:
+    - mail.drupal.lndo.site
