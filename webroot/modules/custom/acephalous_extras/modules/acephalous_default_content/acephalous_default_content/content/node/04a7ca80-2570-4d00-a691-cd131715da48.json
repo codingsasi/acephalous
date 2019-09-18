@@ -1,0 +1,285 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/default\/article\/09-18\/what-lorem-ipsum?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/node\/article"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/revision_uid": [
+            {
+                "href": "http:\/\/default\/user\/1?_format=hal_json"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/uid": [
+            {
+                "href": "http:\/\/default\/user\/1?_format=hal_json",
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/field_image": [
+            {
+                "href": "http:\/\/default\/sites\/default\/files\/2019-09\/one.jpg",
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/field_tags": [
+            {
+                "href": "http:\/\/default\/tag\/one?_format=hal_json",
+                "lang": "en"
+            },
+            {
+                "href": "http:\/\/default\/tag\/two?_format=hal_json",
+                "lang": "en"
+            },
+            {
+                "href": "http:\/\/default\/tag\/three?_format=hal_json",
+                "lang": "en"
+            },
+            {
+                "href": "http:\/\/default\/tag\/four?_format=hal_json",
+                "lang": "en"
+            },
+            {
+                "href": "http:\/\/default\/tag\/five?_format=hal_json",
+                "lang": "en"
+            }
+        ]
+    },
+    "nid": [
+        {
+            "value": 1
+        }
+    ],
+    "uuid": [
+        {
+            "value": "04a7ca80-2570-4d00-a691-cd131715da48"
+        }
+    ],
+    "vid": [
+        {
+            "value": 3
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "article"
+        }
+    ],
+    "revision_timestamp": [
+        {
+            "value": "2019-09-18T10:50:02+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/revision_uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/user\/1?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "0eb620b2-58e9-45f7-85d9-098713788e51"
+                    }
+                ]
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/user\/1?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "0eb620b2-58e9-45f7-85d9-098713788e51"
+                    }
+                ],
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/field_image": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/sites\/default\/files\/2019-09\/one.jpg"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/file\/file"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "9ace27b7-92ee-4ef8-a209-59a3bc4fc72d"
+                    }
+                ],
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/field_tags": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/tag\/one?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/taxonomy_term\/tags"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "fd6a19ce-2bbd-49a8-8748-88b6e98a37ee"
+                    }
+                ],
+                "lang": "en"
+            },
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/tag\/two?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/taxonomy_term\/tags"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "e371675f-ec79-4d82-b030-32b633923f26"
+                    }
+                ],
+                "lang": "en"
+            },
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/tag\/three?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/taxonomy_term\/tags"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "58e6101e-e43a-4858-ad6f-cedd47d607a4"
+                    }
+                ],
+                "lang": "en"
+            },
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/tag\/four?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/taxonomy_term\/tags"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "90ceedd5-2774-48ed-a5c9-9e5ea0271254"
+                    }
+                ],
+                "lang": "en"
+            },
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/tag\/five?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/taxonomy_term\/tags"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "c7361b10-1a80-4371-b99c-61ef1c5358df"
+                    }
+                ],
+                "lang": "en"
+            }
+        ]
+    },
+    "status": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "title": [
+        {
+            "value": "What is Lorem Ipsum?",
+            "lang": "en"
+        }
+    ],
+    "created": [
+        {
+            "value": "2019-09-18T10:20:33+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2019-09-18T10:50:02+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "promote": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "sticky": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "path": [
+        {
+            "alias": "\/article\/09-18\/what-lorem-ipsum",
+            "pid": 1,
+            "langcode": "en",
+            "lang": "en"
+        }
+    ],
+    "body": [
+        {
+            "value": "<p><strong>Lorem ipsum <\/strong>dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Orci ac auctor augue mauris augue neque gravida in. Pharetra et ultrices neque ornare aenean euismod. At tempor commodo ullamcorper a lacus vestibulum sed. Id donec ultrices tincidunt arcu non sodales. In hac habitasse platea dictumst quisque sagittis purus sit amet. Dictumst quisque sagittis purus sit amet volutpat consequat mauris. Tempor orci dapibus ultrices in. Velit dignissim sodales ut eu sem integer. Pharetra massa massa ultricies mi. Faucibus ornare suspendisse sed nisi. Sit amet purus gravida quis blandit turpis. Sit amet porttitor eget dolor morbi non arcu. Facilisis volutpat est velit egestas dui id ornare.<\/p>\r\n\r\n<p>Facilisis gravida neque convallis a cras semper auctor neque vitae. Consectetur a erat nam at lectus urna duis. Odio ut sem nulla pharetra diam sit amet nisl suscipit. Ligula ullamcorper malesuada proin libero nunc consequat. Enim blandit volutpat maecenas volutpat blandit aliquam. Amet venenatis urna cursus eget nunc scelerisque viverra mauris in. Hendrerit gravida rutrum quisque non tellus. Enim eu turpis egestas pretium aenean pharetra magna ac. Congue quisque egestas diam in arcu. <strong>In ante metus dictum at tempor commodo ullamcorper a<\/strong>. Cursus in hac habitasse platea. Consectetur libero id faucibus nisl tincidunt eget. Amet cursus sit amet dictum sit. Elementum integer enim neque volutpat ac tincidunt vitae semper. Commodo elit at imperdiet dui accumsan sit amet nulla facilisi. Scelerisque felis imperdiet proin fermentum leo vel orci porta non. Non odio euismod lacinia at. Malesuada nunc vel risus commodo. Neque viverra justo nec ultrices. Scelerisque felis imperdiet proin fermentum leo vel orci.<\/p>\r\n<img alt=\"Love\" data-align=\"center\" data-entity-type=\"file\" data-entity-uuid=\"7b39b1e8-494f-46ae-a817-2d8d8b39f46d\" src=\"\/sites\/default\/files\/inline-images\/love.jpg\" \/>\r\n<p>Vulputate mi sit amet mauris commodo quis. Tellus molestie nunc non blandit. Nisi porta lorem mollis aliquam ut porttitor leo a diam. Elit pellentesque habitant morbi tristique senectus et. Blandit turpis cursus in hac habitasse platea dictumst quisque sagittis. Id venenatis a condimentum vitae. Nibh cras pulvinar mattis nunc sed. Tincidunt augue interdum velit euismod in pellentesque massa placerat duis. Tortor consequat id porta nibh venenatis. A erat nam at lectus urna. Lacus vestibulum sed arcu non odio euismod lacinia at. Bibendum arcu vitae elementum curabitur vitae nunc sed. Odio aenean sed adipiscing diam donec adipiscing tristique.<\/p>\r\n\r\n<p>Platea dictumst quisque sagittis purus sit. Nam aliquam sem et tortor consequat id. Platea dictumst vestibulum rhoncus est pellentesque elit ullamcorper dignissim. At lectus urna duis convallis convallis tellus id. Varius duis at consectetur lorem. Dui id ornare arcu odio. Blandit volutpat maecenas volutpat blandit aliquam etiam erat velit scelerisque. Aliquam malesuada bibendum arcu vitae elementum curabitur vitae nunc sed. Tempus egestas sed sed risus pretium quam vulputate. Massa sapien faucibus et molestie ac feugiat sed. Facilisi morbi tempus iaculis urna id volutpat lacus laoreet. Nunc consequat interdum varius sit amet. Dui nunc mattis enim ut. Diam in arcu cursus euismod quis viverra nibh cras. Ornare arcu dui vivamus arcu felis bibendum ut tristique. Ultrices vitae auctor eu augue ut lectus arcu. Quisque sagittis purus sit amet volutpat consequat mauris nunc. Turpis cursus in hac habitasse platea dictumst quisque sagittis. Semper feugiat nibh sed pulvinar. Ullamcorper velit sed ullamcorper morbi tincidunt ornare massa.<\/p>\r\n\r\n<p>Eget gravida cum sociis natoque penatibus.<strong> Elit eget gravida cum sociis natoque penatibus et<\/strong>. Id leo in vitae turpis massa sed elementum tempus egestas. Urna nec tincidunt praesent semper feugiat nibh. Platea dictumst quisque sagittis purus sit amet volutpat. Tincidunt praesent semper feugiat nibh. Imperdiet sed euismod nisi porta lorem mollis aliquam ut porttitor. Neque laoreet suspendisse interdum consectetur libero id faucibus nisl tincidunt. Accumsan sit amet nulla facilisi. Duis tristique sollicitudin nibh sit amet commodo nulla facilisi nullam. Maecenas ultricies mi eget mauris pharetra. Et leo duis ut diam quam nulla.<\/p>\r\n\r\n<h5><strong>\u00a9&nbsp;2015&nbsp;\u2014&nbsp;2019<\/strong><\/h5>\r\n",
+            "format": "basic_html",
+            "processed": "<p><strong>Lorem ipsum <\/strong>dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Orci ac auctor augue mauris augue neque gravida in. Pharetra et ultrices neque ornare aenean euismod. At tempor commodo ullamcorper a lacus vestibulum sed. Id donec ultrices tincidunt arcu non sodales. In hac habitasse platea dictumst quisque sagittis purus sit amet. Dictumst quisque sagittis purus sit amet volutpat consequat mauris. Tempor orci dapibus ultrices in. Velit dignissim sodales ut eu sem integer. Pharetra massa massa ultricies mi. Faucibus ornare suspendisse sed nisi. Sit amet purus gravida quis blandit turpis. Sit amet porttitor eget dolor morbi non arcu. Facilisis volutpat est velit egestas dui id ornare.<\/p>\n\n<p>Facilisis gravida neque convallis a cras semper auctor neque vitae. Consectetur a erat nam at lectus urna duis. Odio ut sem nulla pharetra diam sit amet nisl suscipit. Ligula ullamcorper malesuada proin libero nunc consequat. Enim blandit volutpat maecenas volutpat blandit aliquam. Amet venenatis urna cursus eget nunc scelerisque viverra mauris in. Hendrerit gravida rutrum quisque non tellus. Enim eu turpis egestas pretium aenean pharetra magna ac. Congue quisque egestas diam in arcu. <strong>In ante metus dictum at tempor commodo ullamcorper a<\/strong>. Cursus in hac habitasse platea. Consectetur libero id faucibus nisl tincidunt eget. Amet cursus sit amet dictum sit. Elementum integer enim neque volutpat ac tincidunt vitae semper. Commodo elit at imperdiet dui accumsan sit amet nulla facilisi. Scelerisque felis imperdiet proin fermentum leo vel orci porta non. Non odio euismod lacinia at. Malesuada nunc vel risus commodo. Neque viverra justo nec ultrices. Scelerisque felis imperdiet proin fermentum leo vel orci.<\/p>\n<img alt=\"Love\" data-entity-type=\"file\" data-entity-uuid=\"7b39b1e8-494f-46ae-a817-2d8d8b39f46d\" src=\"\/sites\/default\/files\/inline-images\/love.jpg\" class=\"align-center\" \/><p>Vulputate mi sit amet mauris commodo quis. Tellus molestie nunc non blandit. Nisi porta lorem mollis aliquam ut porttitor leo a diam. Elit pellentesque habitant morbi tristique senectus et. Blandit turpis cursus in hac habitasse platea dictumst quisque sagittis. Id venenatis a condimentum vitae. Nibh cras pulvinar mattis nunc sed. Tincidunt augue interdum velit euismod in pellentesque massa placerat duis. Tortor consequat id porta nibh venenatis. A erat nam at lectus urna. Lacus vestibulum sed arcu non odio euismod lacinia at. Bibendum arcu vitae elementum curabitur vitae nunc sed. Odio aenean sed adipiscing diam donec adipiscing tristique.<\/p>\n\n<p>Platea dictumst quisque sagittis purus sit. Nam aliquam sem et tortor consequat id. Platea dictumst vestibulum rhoncus est pellentesque elit ullamcorper dignissim. At lectus urna duis convallis convallis tellus id. Varius duis at consectetur lorem. Dui id ornare arcu odio. Blandit volutpat maecenas volutpat blandit aliquam etiam erat velit scelerisque. Aliquam malesuada bibendum arcu vitae elementum curabitur vitae nunc sed. Tempus egestas sed sed risus pretium quam vulputate. Massa sapien faucibus et molestie ac feugiat sed. Facilisi morbi tempus iaculis urna id volutpat lacus laoreet. Nunc consequat interdum varius sit amet. Dui nunc mattis enim ut. Diam in arcu cursus euismod quis viverra nibh cras. Ornare arcu dui vivamus arcu felis bibendum ut tristique. Ultrices vitae auctor eu augue ut lectus arcu. Quisque sagittis purus sit amet volutpat consequat mauris nunc. Turpis cursus in hac habitasse platea dictumst quisque sagittis. Semper feugiat nibh sed pulvinar. Ullamcorper velit sed ullamcorper morbi tincidunt ornare massa.<\/p>\n\n<p>Eget gravida cum sociis natoque penatibus.<strong> Elit eget gravida cum sociis natoque penatibus et<\/strong>. Id leo in vitae turpis massa sed elementum tempus egestas. Urna nec tincidunt praesent semper feugiat nibh. Platea dictumst quisque sagittis purus sit amet volutpat. Tincidunt praesent semper feugiat nibh. Imperdiet sed euismod nisi porta lorem mollis aliquam ut porttitor. Neque laoreet suspendisse interdum consectetur libero id faucibus nisl tincidunt. Accumsan sit amet nulla facilisi. Duis tristique sollicitudin nibh sit amet commodo nulla facilisi nullam. Maecenas ultricies mi eget mauris pharetra. Et leo duis ut diam quam nulla.<\/p>\n\n<h5><strong>\u00a9\u00a02015\u00a0\u2014\u00a02019<\/strong><\/h5>",
+            "summary": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Orci ac auctor augue mauris augue neque gravida in. Pharetra et ultrices neque ornare aenean euismod. At tempor commodo ullamcorper a lacus vestibulum sed. Id donec ultrices tincidunt arcu non sodales. In hac habitasse platea dictumst quisque sagittis purus sit amet. Dictumst quisque sagittis purus sit amet volutpat consequat mauris. Tempor orci dapibus ultrices in. Velit dignissim sodales ut eu sem integer. Pharetra massa massa ultricies mi. Faucibus ornare suspendisse sed nisi. Sit amet purus gravida quis blandit turpis. Sit amet porttitor eget dolor morbi non arcu. Facilisis volutpat est velit egestas dui id ornare.",
+            "lang": "en"
+        }
+    ]
+}

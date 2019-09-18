@@ -1,0 +1,87 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/default\/sites\/default\/files\/2019-09\/cat-four.jpeg"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/file\/file"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/file\/file\/uid": [
+            {
+                "href": "http:\/\/default\/user\/1?_format=hal_json"
+            }
+        ]
+    },
+    "fid": [
+        {
+            "value": 13
+        }
+    ],
+    "uuid": [
+        {
+            "value": "cc5a7c93-028d-4ab0-8ccf-fed30dbe7c38"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/file\/file\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/user\/1?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "0eb620b2-58e9-45f7-85d9-098713788e51"
+                    }
+                ]
+            }
+        ]
+    },
+    "filename": [
+        {
+            "value": "cat-four.jpeg"
+        }
+    ],
+    "uri": [
+        {
+            "value": "public:\/\/2019-09\/cat-four.jpeg",
+            "url": "\/sites\/default\/files\/2019-09\/cat-four.jpeg"
+        }
+    ],
+    "filemime": [
+        {
+            "value": "image\/jpeg"
+        }
+    ],
+    "filesize": [
+        {
+            "value": 5366
+        }
+    ],
+    "status": [
+        {
+            "value": true
+        }
+    ],
+    "created": [
+        {
+            "value": "2019-09-18T12:17:58+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2019-09-18T12:18:10+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ]
+}

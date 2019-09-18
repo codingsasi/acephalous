@@ -1,0 +1,13 @@
+{
+    "name": "acephalous_extras",
+    "type": "drupal-module",
+    "description": "Site information and other required data for Acephalous",
+    "keywords": [
+    ],
+    "homepage": "https://www.drupal.org/project/acephalous_extras",
+    "minimum-stability": "dev",
+    "support": {
+        "issues": "https://www.drupal.org/project/issues/acephalous_extras",
+        "source": "http://cgit.drupalcode.org/acephalous_extras"
+    }
+}

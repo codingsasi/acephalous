@@ -1,0 +1,24 @@
+<?php
+
+/**
+ * @file
+ * Contains acephalous_extras.module.
+ */
+
+use Drupal\Core\Routing\RouteMatchInterface;
+
+/**
+ * Implements hook_help().
+ */
+function acephalous_extras_help($route_name, RouteMatchInterface $route_match) {
+  switch ($route_name) {
+    // Main module help for the acephalous module.
+    case 'help.page.acephalous_extras':
+      $output = '';
+      $output .= '<h3>' . t('About') . '</h3>';
+      $output .= '<p>' . t('Site information and other required data for Acephalous') . '</p>';
+      return $output;
+
+    default:
+  }
+}

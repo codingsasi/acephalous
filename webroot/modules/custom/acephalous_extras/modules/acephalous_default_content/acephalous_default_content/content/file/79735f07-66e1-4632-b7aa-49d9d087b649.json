@@ -1,0 +1,87 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/default\/sites\/default\/files\/2019-09\/cat-two.jpg"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/file\/file"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/file\/file\/uid": [
+            {
+                "href": "http:\/\/default\/user\/1?_format=hal_json"
+            }
+        ]
+    },
+    "fid": [
+        {
+            "value": 17
+        }
+    ],
+    "uuid": [
+        {
+            "value": "79735f07-66e1-4632-b7aa-49d9d087b649"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/file\/file\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/user\/1?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "0eb620b2-58e9-45f7-85d9-098713788e51"
+                    }
+                ]
+            }
+        ]
+    },
+    "filename": [
+        {
+            "value": "cat-two.jpg"
+        }
+    ],
+    "uri": [
+        {
+            "value": "public:\/\/2019-09\/cat-two.jpg",
+            "url": "\/sites\/default\/files\/2019-09\/cat-two.jpg"
+        }
+    ],
+    "filemime": [
+        {
+            "value": "image\/jpeg"
+        }
+    ],
+    "filesize": [
+        {
+            "value": 226726
+        }
+    ],
+    "status": [
+        {
+            "value": true
+        }
+    ],
+    "created": [
+        {
+            "value": "2019-09-18T12:22:21+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2019-09-18T12:22:30+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ]
+}

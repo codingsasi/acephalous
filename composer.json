@@ -117,7 +117,8 @@
         "phpmd/phpmd": "^2.7",
         "squizlabs/php_codesniffer": "^3.4",
         "drupal/default_content": "^1.0@alpha",
-        "drupal/admin_toolbar": "^1.27"
+        "drupal/admin_toolbar": "^1.27",
+        "drupal/pathauto": "^1.4"
     },
     "require-dev": {
         "drupal/coder": "^8.2",

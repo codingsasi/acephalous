@@ -1,0 +1,245 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/default\/article\/09-18\/there-no-one-who-loves-pain-itself-who-seeks-after-it-and-wants-have-it-simply?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/node\/article"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/revision_uid": [
+            {
+                "href": "http:\/\/default\/user\/1?_format=hal_json"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/uid": [
+            {
+                "href": "http:\/\/default\/user\/1?_format=hal_json",
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/field_image": [
+            {
+                "href": "http:\/\/default\/sites\/default\/files\/2019-09\/four.jpg",
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/field_tags": [
+            {
+                "href": "http:\/\/default\/tag\/six?_format=hal_json",
+                "lang": "en"
+            },
+            {
+                "href": "http:\/\/default\/tag\/one?_format=hal_json",
+                "lang": "en"
+            },
+            {
+                "href": "http:\/\/default\/tag\/four?_format=hal_json",
+                "lang": "en"
+            }
+        ]
+    },
+    "nid": [
+        {
+            "value": 5
+        }
+    ],
+    "uuid": [
+        {
+            "value": "c1e11da6-c415-4fbd-97cc-7c9307b85a62"
+        }
+    ],
+    "vid": [
+        {
+            "value": 8
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "article"
+        }
+    ],
+    "revision_timestamp": [
+        {
+            "value": "2019-09-18T11:26:48+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/revision_uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/user\/1?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "0eb620b2-58e9-45f7-85d9-098713788e51"
+                    }
+                ]
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/user\/1?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "0eb620b2-58e9-45f7-85d9-098713788e51"
+                    }
+                ],
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/field_image": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/sites\/default\/files\/2019-09\/four.jpg"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/file\/file"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "c78949e9-a78d-4b54-812f-fb24d24cc5df"
+                    }
+                ],
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/field_tags": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/tag\/six?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/taxonomy_term\/tags"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "db2317eb-ec9e-40b1-b554-097427b2034f"
+                    }
+                ],
+                "lang": "en"
+            },
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/tag\/one?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/taxonomy_term\/tags"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "fd6a19ce-2bbd-49a8-8748-88b6e98a37ee"
+                    }
+                ],
+                "lang": "en"
+            },
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/tag\/four?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/taxonomy_term\/tags"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "90ceedd5-2774-48ed-a5c9-9e5ea0271254"
+                    }
+                ],
+                "lang": "en"
+            }
+        ]
+    },
+    "status": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "title": [
+        {
+            "value": "There is no one who loves pain itself, who seeks after it and wants to have it, simply because it is pain",
+            "lang": "en"
+        }
+    ],
+    "created": [
+        {
+            "value": "2019-09-18T11:04:06+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2019-09-18T11:26:48+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "promote": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "sticky": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "path": [
+        {
+            "alias": "\/article\/09-18\/there-no-one-who-loves-pain-itself-who-seeks-after-it-and-wants-have-it-simply",
+            "pid": 12,
+            "langcode": "en",
+            "lang": "en"
+        }
+    ],
+    "body": [
+        {
+            "value": "<h2>Lorem ipsum dolor sit amet.<\/h2>\r\n\r\n<p>Consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Nisl vel pretium lectus quam id leo. Vitae ultricies leo integer malesuada nunc vel risus commodo. Nec dui nunc mattis enim ut tellus elementum sagittis vitae. Tortor at auctor urna nunc id cursus metus aliquam eleifend. Aliquet lectus proin nibh nisl condimentum id venenatis. Lorem sed risus ultricies tristique nulla aliquet enim. Enim nulla aliquet porttitor lacus luctus accumsan tortor posuere. Faucibus turpis in eu mi bibendum neque egestas congue quisque. Faucibus a pellentesque sit amet porttitor eget dolor morbi. Auctor augue mauris augue neque gravida in fermentum.<\/p>\r\n\r\n<p><em>Augue ut lectus arcu bibendum. Mi in nulla posuere sollicitudin aliquam. Suspendisse in est ante in nibh mauris cursus mattis. Elit ullamcorper dignissim cras tincidunt lobortis feugiat vivamus. Suspendisse potenti nullam ac tortor. Ultrices tincidunt arcu non sodales neque sodales ut etiam. Sagittis id consectetur purus ut faucibus pulvinar elementum. Lorem donec massa sapien faucibus et molestie ac feugiat sed. Adipiscing elit pellentesque habitant morbi tristique senectus et netus. Phasellus vestibulum lorem sed risus ultricies tristique nulla. Nascetur ridiculus mus mauris vitae ultricies leo. Sit amet tellus cras adipiscing enim. Nibh sit amet commodo nulla facilisi nullam vehicula. Ut tortor pretium viverra suspendisse potenti nullam ac. Gravida quis blandit turpis cursus in hac. Semper auctor neque vitae tempus quam. Nec nam aliquam sem et tortor. Id aliquet lectus proin nibh. Nibh sit amet commodo nulla facilisi nullam vehicula ipsum. Laoreet non curabitur gravida arcu ac tortor dignissim.<\/em><\/p>\r\n\r\n<blockquote>\r\n<p>Adipiscing vitae proin sagittis nisl rhoncus mattis. Sed felis eget velit aliquet. Habitasse platea dictumst vestibulum rhoncus est pellentesque. Vulputate enim nulla aliquet porttitor lacus luctus accumsan tortor posuere. Nisi quis eleifend quam adipiscing vitae proin sagittis nisl rhoncus. Volutpat ac tincidunt vitae semper quis. Dis parturient montes nascetur ridiculus mus mauris. Ipsum dolor sit amet consectetur adipiscing. Risus ultricies tristique nulla aliquet. Venenatis a condimentum vitae sapien pellentesque habitant. Pulvinar neque laoreet suspendisse interdum. Sem integer vitae justo eget magna fermentum. Consectetur adipiscing elit duis tristique sollicitudin. Condimentum id venenatis a condimentum vitae sapien pellentesque. Eget nullam non nisi est sit amet facilisis magna. Porttitor lacus luctus accumsan tortor posuere ac ut consequat. Varius morbi enim nunc faucibus a pellentesque sit amet porttitor. Cursus in hac habitasse platea dictumst quisque sagittis purus.<\/p>\r\n\r\n<h3>Morbi blandit cursus risus at ultrices mi tempus. Nunc sed augue lacus viverra vitae congue eu consequat ac. Posuere sollicitudin aliquam ultrices sagittis. Pulvinar neque laoreet suspendisse interdum consectetur. At quis risus sed vulputate odio. Penatibus et magnis dis parturient montes nascetur ridiculus. Quis ipsum suspendisse ultrices gravida dictum fusce ut placerat orci. Quam pellentesque nec nam aliquam sem et tortor consequat. Fusce id velit ut tortor pretium viverra suspendisse potenti nullam. Id faucibus nisl tincidunt eget nullam non nisi. Interdum velit laoreet id donec. Posuere lorem ipsum dolor sit amet consectetur adipiscing elit. Aliquam ultrices sagittis orci a scelerisque purus. Gravida quis blandit turpis cursus.<\/h3>\r\n<\/blockquote>\r\n\r\n<h3>Nibh mauris cursus mattis molestie a iaculis at.<\/h3>\r\n\r\n<p>Ut consequat semper viverra nam libero justo laoreet. Commodo odio aenean sed adipiscing diam donec. At imperdiet dui accumsan sit amet nulla facilisi. Morbi blandit cursus risus at ultrices mi tempus imperdiet nulla. Egestas dui id ornare arcu odio ut sem nulla. Congue nisi vitae suscipit tellus. Tortor dignissim convallis aenean et tortor at risus viverra adipiscing. Ridiculus mus mauris vitae ultricies leo integer malesuada. Ut venenatis tellus in metus vulputate eu scelerisque felis. Id neque aliquam vestibulum morbi blandit cursus risus at ultrices. Dolor purus non enim praesent. Vitae nunc sed velit dignissim sodales. Amet risus nullam eget felis eget nunc lobortis mattis aliquam. Hendrerit dolor magna eget est. Faucibus et molestie ac feugiat sed lectus vestibulum mattis.<\/p>\r\n",
+            "format": "basic_html",
+            "processed": "<h2>Lorem ipsum dolor sit amet.<\/h2>\n\n<p>Consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Nisl vel pretium lectus quam id leo. Vitae ultricies leo integer malesuada nunc vel risus commodo. Nec dui nunc mattis enim ut tellus elementum sagittis vitae. Tortor at auctor urna nunc id cursus metus aliquam eleifend. Aliquet lectus proin nibh nisl condimentum id venenatis. Lorem sed risus ultricies tristique nulla aliquet enim. Enim nulla aliquet porttitor lacus luctus accumsan tortor posuere. Faucibus turpis in eu mi bibendum neque egestas congue quisque. Faucibus a pellentesque sit amet porttitor eget dolor morbi. Auctor augue mauris augue neque gravida in fermentum.<\/p>\n\n<p><em>Augue ut lectus arcu bibendum. Mi in nulla posuere sollicitudin aliquam. Suspendisse in est ante in nibh mauris cursus mattis. Elit ullamcorper dignissim cras tincidunt lobortis feugiat vivamus. Suspendisse potenti nullam ac tortor. Ultrices tincidunt arcu non sodales neque sodales ut etiam. Sagittis id consectetur purus ut faucibus pulvinar elementum. Lorem donec massa sapien faucibus et molestie ac feugiat sed. Adipiscing elit pellentesque habitant morbi tristique senectus et netus. Phasellus vestibulum lorem sed risus ultricies tristique nulla. Nascetur ridiculus mus mauris vitae ultricies leo. Sit amet tellus cras adipiscing enim. Nibh sit amet commodo nulla facilisi nullam vehicula. Ut tortor pretium viverra suspendisse potenti nullam ac. Gravida quis blandit turpis cursus in hac. Semper auctor neque vitae tempus quam. Nec nam aliquam sem et tortor. Id aliquet lectus proin nibh. Nibh sit amet commodo nulla facilisi nullam vehicula ipsum. Laoreet non curabitur gravida arcu ac tortor dignissim.<\/em><\/p>\n\n<blockquote>\n<p>Adipiscing vitae proin sagittis nisl rhoncus mattis. Sed felis eget velit aliquet. Habitasse platea dictumst vestibulum rhoncus est pellentesque. Vulputate enim nulla aliquet porttitor lacus luctus accumsan tortor posuere. Nisi quis eleifend quam adipiscing vitae proin sagittis nisl rhoncus. Volutpat ac tincidunt vitae semper quis. Dis parturient montes nascetur ridiculus mus mauris. Ipsum dolor sit amet consectetur adipiscing. Risus ultricies tristique nulla aliquet. Venenatis a condimentum vitae sapien pellentesque habitant. Pulvinar neque laoreet suspendisse interdum. Sem integer vitae justo eget magna fermentum. Consectetur adipiscing elit duis tristique sollicitudin. Condimentum id venenatis a condimentum vitae sapien pellentesque. Eget nullam non nisi est sit amet facilisis magna. Porttitor lacus luctus accumsan tortor posuere ac ut consequat. Varius morbi enim nunc faucibus a pellentesque sit amet porttitor. Cursus in hac habitasse platea dictumst quisque sagittis purus.<\/p>\n\n<h3>Morbi blandit cursus risus at ultrices mi tempus. Nunc sed augue lacus viverra vitae congue eu consequat ac. Posuere sollicitudin aliquam ultrices sagittis. Pulvinar neque laoreet suspendisse interdum consectetur. At quis risus sed vulputate odio. Penatibus et magnis dis parturient montes nascetur ridiculus. Quis ipsum suspendisse ultrices gravida dictum fusce ut placerat orci. Quam pellentesque nec nam aliquam sem et tortor consequat. Fusce id velit ut tortor pretium viverra suspendisse potenti nullam. Id faucibus nisl tincidunt eget nullam non nisi. Interdum velit laoreet id donec. Posuere lorem ipsum dolor sit amet consectetur adipiscing elit. Aliquam ultrices sagittis orci a scelerisque purus. Gravida quis blandit turpis cursus.<\/h3>\n<\/blockquote>\n\n<h3>Nibh mauris cursus mattis molestie a iaculis at.<\/h3>\n\n<p>Ut consequat semper viverra nam libero justo laoreet. Commodo odio aenean sed adipiscing diam donec. At imperdiet dui accumsan sit amet nulla facilisi. Morbi blandit cursus risus at ultrices mi tempus imperdiet nulla. Egestas dui id ornare arcu odio ut sem nulla. Congue nisi vitae suscipit tellus. Tortor dignissim convallis aenean et tortor at risus viverra adipiscing. Ridiculus mus mauris vitae ultricies leo integer malesuada. Ut venenatis tellus in metus vulputate eu scelerisque felis. Id neque aliquam vestibulum morbi blandit cursus risus at ultrices. Dolor purus non enim praesent. Vitae nunc sed velit dignissim sodales. Amet risus nullam eget felis eget nunc lobortis mattis aliquam. Hendrerit dolor magna eget est. Faucibus et molestie ac feugiat sed lectus vestibulum mattis.<\/p>",
+            "summary": "Consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Nisl vel pretium lectus quam id leo. Vitae ultricies leo integer malesuada nunc vel risus commodo. Nec dui nunc mattis enim ut tellus elementum sagittis vitae. Tortor at auctor urna nunc id cursus metus aliquam eleifend. Aliquet lectus proin nibh nisl condimentum id venenatis. Lorem sed risus ultricies tristique nulla aliquet enim. Enim nulla aliquet porttitor lacus luctus accumsan tortor posuere. Faucibus turpis in eu mi bibendum neque egestas congue quisque. Faucibus a pellentesque sit amet porttitor eget dolor morbi. Auctor augue mauris augue neque gravida in fermentum.",
+            "lang": "en"
+        }
+    ]
+}

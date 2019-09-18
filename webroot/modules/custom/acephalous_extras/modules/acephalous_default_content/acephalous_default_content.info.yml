@@ -1,0 +1,5 @@
+name: 'acephalous_default_content'
+type: module
+description: 'Dummy content created when site is first installed.'
+core: 8.x
+package: 'Acephalous'

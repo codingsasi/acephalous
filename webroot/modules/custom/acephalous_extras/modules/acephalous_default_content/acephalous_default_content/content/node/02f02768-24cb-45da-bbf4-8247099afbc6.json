@@ -1,0 +1,225 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/default\/article\/09-18\/why-do-we-use-it?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/node\/article"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/revision_uid": [
+            {
+                "href": "http:\/\/default\/user\/1?_format=hal_json"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/uid": [
+            {
+                "href": "http:\/\/default\/user\/1?_format=hal_json",
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/field_image": [
+            {
+                "href": "http:\/\/default\/sites\/default\/files\/2019-09\/five.jpg",
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/field_tags": [
+            {
+                "href": "http:\/\/default\/tag\/ten?_format=hal_json",
+                "lang": "en"
+            },
+            {
+                "href": "http:\/\/default\/tag\/five?_format=hal_json",
+                "lang": "en"
+            }
+        ]
+    },
+    "nid": [
+        {
+            "value": 3
+        }
+    ],
+    "uuid": [
+        {
+            "value": "02f02768-24cb-45da-bbf4-8247099afbc6"
+        }
+    ],
+    "vid": [
+        {
+            "value": 13
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "article"
+        }
+    ],
+    "revision_timestamp": [
+        {
+            "value": "2019-09-18T11:55:03+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/revision_uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/user\/1?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "0eb620b2-58e9-45f7-85d9-098713788e51"
+                    }
+                ]
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/user\/1?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "0eb620b2-58e9-45f7-85d9-098713788e51"
+                    }
+                ],
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/field_image": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/sites\/default\/files\/2019-09\/five.jpg"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/file\/file"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "7a0cd2f2-ea14-4593-9151-ffc020578be8"
+                    }
+                ],
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/field_tags": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/tag\/ten?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/taxonomy_term\/tags"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "e435a350-7a3f-466f-8f3d-9dacb6bea6a4"
+                    }
+                ],
+                "lang": "en"
+            },
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/tag\/five?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/taxonomy_term\/tags"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "c7361b10-1a80-4371-b99c-61ef1c5358df"
+                    }
+                ],
+                "lang": "en"
+            }
+        ]
+    },
+    "status": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "title": [
+        {
+            "value": "Why do we use it?",
+            "lang": "en"
+        }
+    ],
+    "created": [
+        {
+            "value": "2019-09-18T11:00:12+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2019-09-18T11:55:03+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "promote": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "sticky": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "path": [
+        {
+            "alias": "\/article\/09-18\/why-do-we-use-it",
+            "pid": 9,
+            "langcode": "en",
+            "lang": "en"
+        }
+    ],
+    "body": [
+        {
+            "value": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Pellentesque habitant morbi tristique senectus et netus et malesuada. Arcu non sodales neque sodales ut etiam sit amet nisl. Dui id ornare arcu odio ut sem nulla pharetra. Adipiscing bibendum est ultricies integer quis auctor elit sed. Mi tempus imperdiet nulla malesuada pellentesque elit eget. Pharetra convallis posuere morbi leo urna. Facilisis sed odio morbi quis commodo odio aenean sed. Ut consequat semper viverra nam libero. Arcu cursus euismod quis viverra nibh. Est pellentesque elit ullamcorper dignissim. Leo a diam sollicitudin tempor id. Quis vel eros donec ac odio tempor orci dapibus ultrices. Neque sodales ut etiam sit amet nisl. Consequat semper viverra nam libero justo laoreet sit amet cursus. Et malesuada fames ac turpis egestas integer eget aliquet. Orci porta non pulvinar neque. Fusce id velit ut tortor. In metus vulputate eu scelerisque felis imperdiet. Lorem mollis aliquam ut porttitor leo a.<\/p>\r\n\r\n<blockquote>\r\n<p>A arcu cursus vitae congue mauris rhoncus aenean vel. Feugiat scelerisque varius morbi enim. Est placerat in egestas erat. Pulvinar mattis nunc sed blandit libero volutpat. Dictumst quisque sagittis purus sit amet volutpat consequat. Sed id semper risus in hendrerit. Enim neque volutpat ac tincidunt vitae semper quis. Vitae sapien pellentesque habitant morbi tristique senectus et. Et leo duis ut diam quam. Amet venenatis urna cursus eget nunc scelerisque. Odio ut enim blandit volutpat maecenas volutpat blandit. Dapibus ultrices in iaculis nunc. Purus in mollis nunc sed id semper.<\/p>\r\n<\/blockquote>\r\n\r\n<p><strong>Porta non pulvinar neque laoreet. Tempus iaculis urna id volutpat lacus laoreet non. Phasellus faucibus scelerisque eleifend donec pretium. In arcu cursus euismod quis viverra nibh cras. Mattis vulputate enim nulla aliquet porttitor lacus. Adipiscing vitae proin sagittis nisl rhoncus mattis rhoncus urna. Nunc consequat interdum varius sit amet mattis vulputate enim nulla. Semper viverra nam libero justo laoreet sit. Ultricies tristique nulla aliquet enim tortor. <\/strong><\/p>\r\n\r\n<p>Morbi leo urna molestie at elementum eu facilisis sed. Pellentesque sit amet porttitor eget dolor morbi. Lacus suspendisse faucibus interdum posuere. Accumsan lacus vel facilisis volutpat est velit. Tristique risus nec feugiat in fermentum posuere urna nec tincidunt. Augue eget arcu dictum varius duis at consectetur lorem donec. Et netus et malesuada fames ac. Quis lectus nulla at volutpat diam ut venenatis. Pellentesque dignissim enim sit amet.<\/p>\r\n",
+            "format": "basic_html",
+            "processed": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Pellentesque habitant morbi tristique senectus et netus et malesuada. Arcu non sodales neque sodales ut etiam sit amet nisl. Dui id ornare arcu odio ut sem nulla pharetra. Adipiscing bibendum est ultricies integer quis auctor elit sed. Mi tempus imperdiet nulla malesuada pellentesque elit eget. Pharetra convallis posuere morbi leo urna. Facilisis sed odio morbi quis commodo odio aenean sed. Ut consequat semper viverra nam libero. Arcu cursus euismod quis viverra nibh. Est pellentesque elit ullamcorper dignissim. Leo a diam sollicitudin tempor id. Quis vel eros donec ac odio tempor orci dapibus ultrices. Neque sodales ut etiam sit amet nisl. Consequat semper viverra nam libero justo laoreet sit amet cursus. Et malesuada fames ac turpis egestas integer eget aliquet. Orci porta non pulvinar neque. Fusce id velit ut tortor. In metus vulputate eu scelerisque felis imperdiet. Lorem mollis aliquam ut porttitor leo a.<\/p>\n\n<blockquote>\n<p>A arcu cursus vitae congue mauris rhoncus aenean vel. Feugiat scelerisque varius morbi enim. Est placerat in egestas erat. Pulvinar mattis nunc sed blandit libero volutpat. Dictumst quisque sagittis purus sit amet volutpat consequat. Sed id semper risus in hendrerit. Enim neque volutpat ac tincidunt vitae semper quis. Vitae sapien pellentesque habitant morbi tristique senectus et. Et leo duis ut diam quam. Amet venenatis urna cursus eget nunc scelerisque. Odio ut enim blandit volutpat maecenas volutpat blandit. Dapibus ultrices in iaculis nunc. Purus in mollis nunc sed id semper.<\/p>\n<\/blockquote>\n\n<p><strong>Porta non pulvinar neque laoreet. Tempus iaculis urna id volutpat lacus laoreet non. Phasellus faucibus scelerisque eleifend donec pretium. In arcu cursus euismod quis viverra nibh cras. Mattis vulputate enim nulla aliquet porttitor lacus. Adipiscing vitae proin sagittis nisl rhoncus mattis rhoncus urna. Nunc consequat interdum varius sit amet mattis vulputate enim nulla. Semper viverra nam libero justo laoreet sit. Ultricies tristique nulla aliquet enim tortor. <\/strong><\/p>\n\n<p>Morbi leo urna molestie at elementum eu facilisis sed. Pellentesque sit amet porttitor eget dolor morbi. Lacus suspendisse faucibus interdum posuere. Accumsan lacus vel facilisis volutpat est velit. Tristique risus nec feugiat in fermentum posuere urna nec tincidunt. Augue eget arcu dictum varius duis at consectetur lorem donec. Et netus et malesuada fames ac. Quis lectus nulla at volutpat diam ut venenatis. Pellentesque dignissim enim sit amet.<\/p>",
+            "summary": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Pellentesque habitant morbi tristique senectus et netus et malesuada. Arcu non sodales neque sodales ut etiam sit amet nisl. Dui id ornare arcu odio ut sem nulla pharetra. Adipiscing bibendum est ultricies integer quis auctor elit sed. Mi tempus imperdiet nulla malesuada pellentesque elit eget. Pharetra convallis posuere morbi leo urna. Facilisis sed odio morbi quis commodo odio aenean sed. Ut consequat semper viverra nam libero. Arcu cursus euismod quis viverra nibh. Est pellentesque elit ullamcorper dignissim. Leo a diam sollicitudin tempor id. Quis vel eros donec ac odio tempor orci dapibus ultrices. Neque sodales ut etiam sit amet nisl. Consequat semper viverra nam libero justo laoreet sit amet cursus. Et malesuada fames ac turpis egestas integer eget aliquet. Orci porta non pulvinar neque. Fusce id velit ut tortor. In metus vulputate eu scelerisque felis imperdiet. Lorem mollis aliquam ut porttitor leo a.",
+            "lang": "en"
+        }
+    ]
+}

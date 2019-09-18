@@ -1,0 +1,7 @@
+
+acephalous_extras.site_info_api_controller_siteInfo:
+  path: '/api/site-info'
+  defaults:
+    _controller: '\Drupal\acephalous_extras\Controller\SiteInfoAPIController::siteInfo'
+  requirements:
+    _permission: 'access content'

@@ -1,0 +1,5 @@
+name: 'acephalous_extras'
+type: module
+description: 'Site information and other required data for Acephalous'
+core: 8.x
+package: 'Acephalous'
