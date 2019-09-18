@@ -47,6 +47,8 @@ install:
   - tour
   - automated_cron
   - default_content
+  - admin_toolbar
+  - pathauto
 themes:
   - bartik
   - seven
