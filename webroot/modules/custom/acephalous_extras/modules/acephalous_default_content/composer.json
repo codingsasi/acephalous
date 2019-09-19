@@ -8,6 +8,6 @@
     "minimum-stability": "dev",
     "support": {
         "issues": "https://www.drupal.org/project/issues/acephalous_default_content",
-        "source": "http://cgit.drupalcode.org/acephalous_default_content",
-    },
+        "source": "http://cgit.drupalcode.org/acephalous_default_content"
+    }
 }

@@ -24,5 +24,5 @@ function acephalous_install() {
 	// We install some menu links, so we have to rebuild the router, to ensure the
 	// menu links are valid.
 	\Drupal::service('router.builder')->rebuildIfNeeded();
-
+	\Drupal::service('module_installer')->install(['acephalous_default_content'], TRUE);
 }
