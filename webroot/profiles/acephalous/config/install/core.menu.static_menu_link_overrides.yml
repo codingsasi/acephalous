@@ -1,1 +1,7 @@
-definitions: {  }
+definitions:
+  acephalous__front_page:
+    weight: -50
+    menu_name: main
+    parent: ''
+    expanded: false
+    enabled: true
