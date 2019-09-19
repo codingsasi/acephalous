@@ -1,10 +1,12 @@
-uuid: 69bcfc70-14e0-4a25-a1b3-d9e6dfff4307
+uuid: 518410da-5a46-43b6-9393-79b02f6feff5
 langcode: en
 status: true
 dependencies:
   module:
     - ctools
     - taxonomy
+_core:
+  default_config_hash: fEwwu41yug5evmaptJgPU2-wdiGq025Jh7JdpFZJiJQ
 id: tags
 label: Tags
 type: 'canonical_entities:taxonomy_term'

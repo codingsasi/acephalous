@@ -1,4 +1,4 @@
-uuid: 20f04f43-dd59-43e5-85c9-c67aadedbe19
+uuid: cd5a18b4-3e2f-4bea-ad3a-8e7da2f2bc7c
 langcode: en
 status: true
 dependencies:
@@ -6,6 +6,8 @@ dependencies:
     - rest_menu_items
     - serialization
     - user
+_core:
+  default_config_hash: FXerWOAAL7X0bduLpVqO0GNaFkmxjtX0Ah0nk567-aw
 id: rest_menu_item
 plugin_id: rest_menu_item
 granularity: resource

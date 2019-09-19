@@ -1,9 +1,11 @@
-uuid: 0ebcb473-59e1-4974-b85c-cf94c1d34fa7
+uuid: c765511d-5863-4fe1-aa4c-43a5e76ac005
 langcode: en
 status: true
 dependencies:
   module:
     - node
+_core:
+  default_config_hash: yD0_DwmFJsYTiKmXTnXG2KBxshctUREI9EAtHxE8WSk
 id: pages
 label: Pages
 type: 'canonical_entities:node'
