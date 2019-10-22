@@ -1,0 +1,8 @@
+<?php
+
+/**
+ * Implements hook_install().
+ */
+function acephalous_default_content_install() {
+  shell_exec('cp -r modules/custom/acephalous_extras/modules/acephalous_default_content/content/images/* sites/default/files/');
+}
