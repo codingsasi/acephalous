@@ -1,9 +1,0 @@
-definitions:
-  acephalous__front_page:
-    weight: -50
-    menu_name: main
-    parent: ''
-    expanded: false
-    enabled: true
-_core:
-  default_config_hash: XKklKslvlkXZ87BFPjuGw4fWYLNE1xoTgSo4eZuqPLE
