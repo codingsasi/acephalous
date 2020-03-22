@@ -1,4 +1,4 @@
-uuid: 4c017ea1-e2c6-480d-abc4-c4aa928253ba
+uuid: c9773413-9b1d-4b6a-8378-c3b4b1ce7c37
 langcode: en
 status: true
 dependencies:
@@ -45,11 +45,13 @@ settings:
   plugins:
     stylescombo:
       styles: ''
+    language:
+      language_list: un
 image_upload:
   status: true
   scheme: public
   directory: inline-images
   max_size: ''
   max_dimensions:
-    width: 0
-    height: 0
+    width: null
+    height: null

@@ -1,9 +1,11 @@
-uuid: 7c7f5e27-e331-475a-baa7-0dd985336760
+uuid: 8a6d796e-1e8d-4068-b577-45729500827f
 langcode: en
 status: true
 dependencies:
   config:
     - node.type.article
+_core:
+  default_config_hash: sW2mfeJGTHSFGpra1iRnJNEZvq7koT7-rFlXNU8YPOQ
 id: node--article
 disabled: false
 path: node/article

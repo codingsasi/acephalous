@@ -1,7 +1,7 @@
 name: drupal
 recipe: drupal8
 config:
-  webroot: webroot
+  webroot: docroot
   php: '7.3'
   via: nginx
   drush: 9.6.0-rc3
@@ -16,3 +16,20 @@ services:
 proxy:
   mailhog:
     - mail.drupal.lndo.site
+tooling:
+  robo:
+    service: appserver
+    description: Runs <robo> commands
+    cmd: robo
+  phpunit:
+    service: appserver
+    cmd: vendor/bin/phpunit
+  npm:
+    service: appserver
+  node:
+    service: appserver
+  gulp:
+    service: appserver
+  blt:
+    service: appserver
+    cmd: /app/vendor/bin/blt

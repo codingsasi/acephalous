@@ -1,4 +1,4 @@
-uuid: 3f0fa9c3-ddcd-4857-ae0f-a4e914ca138e
+uuid: 976d06ab-62cc-442f-b60d-91acfbe5f5b4
 langcode: en
 status: false
 dependencies:
@@ -8,7 +8,7 @@ dependencies:
     - node
     - user
 _core:
-  default_config_hash: _12Vkw1VGBz_s0_W_LLVCrBPpioNSnB6zcd1lUAQubM
+  default_config_hash: lk_iXsZ6T1FdxoGNuJjuYCkQT6obGn6dlB287uP0LU4
 id: glossary
 label: Glossary
 module: node
@@ -16,7 +16,6 @@ description: 'All content, by letter.'
 tag: default
 base_table: node_field_data
 base_field: nid
-core: '8'
 display:
   default:
     id: default
@@ -336,6 +335,8 @@ display:
             remember_roles:
               authenticated: authenticated
             reduce: false
+            operator_limit_selection: false
+            operator_list: {  }
           is_grouped: false
           group_info:
             label: ''

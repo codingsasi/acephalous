@@ -118,7 +118,8 @@
         "squizlabs/php_codesniffer": "^3.4",
         "drupal/default_content": "^1.0@alpha",
         "drupal/admin_toolbar": "^1.27",
-        "drupal/pathauto": "^1.4"
+        "drupal/pathauto": "^1.4",
+        "acquia/blt": "^11.2"
     },
     "require-dev": {
         "drupal/coder": "^8.2",
@@ -153,13 +154,13 @@
     },
     "extra": {
         "installer-paths": {
-            "webroot/core": ["type:drupal-core"],
-            "webroot/libraries/ckeditor/plugins/{$name}": ["vendor:ckeditor-plugin"],
-            "webroot/libraries/{$name}": ["type:drupal-library"],
-            "webroot/modules/contrib/{$name}": ["type:drupal-module"],
-            "webroot/profiles/contrib/{$name}": ["type:drupal-profile"],
-            "webroot/themes/contrib/{$name}": ["type:drupal-theme"],
-            "webroot/sites/all/drush/contrib/{$name}": ["type:drupal-drush"]
+            "docroot/core": ["type:drupal-core"],
+            "docroot/libraries/ckeditor/plugins/{$name}": ["vendor:ckeditor-plugin"],
+            "docroot/libraries/{$name}": ["type:drupal-library"],
+            "docroot/modules/contrib/{$name}": ["type:drupal-module"],
+            "docroot/profiles/contrib/{$name}": ["type:drupal-profile"],
+            "docroot/themes/contrib/{$name}": ["type:drupal-theme"],
+            "docroot/sites/all/drush/contrib/{$name}": ["type:drupal-drush"]
         },
         "patchLevel": {
             "drupal/core": "-p2"

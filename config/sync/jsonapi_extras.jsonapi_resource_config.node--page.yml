@@ -1,9 +1,11 @@
-uuid: 86f92860-8ab9-4ffe-ba25-10e4ab04ea12
+uuid: 51ee2ac2-8bd4-4db2-8e6b-db2b6840635e
 langcode: en
 status: true
 dependencies:
   config:
     - node.type.page
+_core:
+  default_config_hash: F_d0gLPgv_rZLnrGbFMbyagv7qny3WSg5v0KLG_k1-M
 id: node--page
 disabled: false
 path: node/page

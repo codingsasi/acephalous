@@ -1,4 +1,4 @@
-uuid: 844ab6be-f93b-43c7-9055-6bc8c0bb7179
+uuid: 8cd41816-6471-4e12-908c-a8d57bbc7551
 langcode: en
 status: true
 dependencies:
@@ -7,7 +7,7 @@ dependencies:
   module:
     - ckeditor
 _core:
-  default_config_hash: 967ijj7p6i7rwrYl7r08WQFeCY_c23YAh0h8u-w_CXM
+  default_config_hash: jtxBfaiPRqWGbcTdpbCcOf2Nmkg0uF2MwXxA6-9aayw
 format: full_html
 editor: ckeditor
 settings:
@@ -19,6 +19,7 @@ settings:
           items:
             - Bold
             - Italic
+            - Underline
             - Strike
             - Superscript
             - Subscript
@@ -34,6 +35,9 @@ settings:
           items:
             - BulletedList
             - NumberedList
+            - JustifyCenter
+            - JustifyRight
+            - JustifyLeft
         -
           name: Media
           items:
@@ -45,19 +49,28 @@ settings:
           name: 'Block Formatting'
           items:
             - Format
+            - Outdent
+            - Indent
         -
           name: Tools
           items:
             - ShowBlocks
             - Source
+            - Copy
+            - Cut
+            - SpecialChar
+            - Undo
+            - Redo
   plugins:
     stylescombo:
       styles: ''
+    language:
+      language_list: un
 image_upload:
   status: true
   scheme: public
   directory: inline-images
   max_size: ''
   max_dimensions:
-    width: 0
-    height: 0
+    width: null
+    height: null
