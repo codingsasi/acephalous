@@ -1,0 +1,6 @@
+[submodule "drupal"]
+	path = drupal
+	url = git@github.com:codingsasi/acephalous-distribution.git
+[submodule "ng"]
+	path = ng
+	url = git@github.com:codingsasi/acephalous-ng.git
