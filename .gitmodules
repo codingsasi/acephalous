@@ -1,6 +1,8 @@
 [submodule "drupal"]
 	path = drupal
 	url = git@github.com:codingsasi/acephalous-distribution.git
+	branch = 8.x
 [submodule "ng"]
 	path = ng
 	url = git@github.com:codingsasi/acephalous-ng.git
+    branch = 1.x
