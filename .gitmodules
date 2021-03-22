@@ -6,3 +6,6 @@
 	path = ng
 	url = git@github.com:codingsasi/acephalous-ng.git
     branch = 1.x
+[submodule "act"]
+	path = act
+	url = git@github.com:codingsasi/act.git
